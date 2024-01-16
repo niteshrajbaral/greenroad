@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>GREEN ROAD</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- favicon tag -->
+    <link rel="icon" href="greeroad.png">
+  </head>
+    <style>
+        body{
+            background-color: #fff;
+        }
+        .intro{
+            text-align: center;
+            margin-top: 20px;
+        }
+        /* align logo to left and text in center in same line*/
+        .intro h2{
+            display: inline-block;
+            margin-left: 20px;
+        }
+        /* align forms to center */
+        .tab-content iframe{
+            margin: 0 auto;
+            display: block;
+        }
+        /* black color for tabs */
+        .nav-tabs .nav-link{
+            color: #000;
+        }
+        /* change color of active tab */
+        .nav-tabs .nav-link.active{
+            color: #fff;
+            background-color: #00af5e;
+        }
+
+    </style>
+  <body>
+    <div class="intro">
+        <img src="greeroad.png" alt="logo" width="60px" height="60px">
+        <h2>Here are the forms from green road</h2>
+    </div>
+    
+    <ul class="nav nav-tabs" id="myTab" role="tablist">
+        <li class="nav-item" role="presentation">
+          <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Advance form</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">Expense Form</button>
+        </li>
+       
+      </ul>
+      <div class="tab-content" id="myTabContent">
+        <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSde23X4jh7PTCWstOLOyFyEPzk1dkhdV1dCv9fhoLbjXuZ-9w/viewform?embedded=true" width="640" height="1242" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+        </div>
+        <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdammGG8-L1JeRrcGZKAdv6y1fcu5EP4eSCiamfy6TUG39OCQ/viewform?embedded=true" width="640" height="1826" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+        </div>
+      </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+  </body>
+</html>
